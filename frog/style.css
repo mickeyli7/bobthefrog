@@ -1,0 +1,86 @@
+body {
+    background-color: #8df093;
+}
+
+p{
+    font-size: 2em;
+    text-align: center;
+}
+
+img {
+    width: 45em;
+    border-style: solid;
+    border-width: 1.5em;
+    border-color: #78a8da;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 1em;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+.control {
+    display: flex;
+    align-items: center;
+    margin: 1em;
+}
+
+button {
+    margin-top: 1em;
+    margin-right: 0.5em;
+    width: 10em;
+    display: block;
+    padding: 1% 2%;
+    border-radius: 2em;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+#buttonSlapen{
+    background-color: #648DE5;
+}
+#buttonVoeren{
+    background-color: #33CA7F;
+}
+#buttonSpelen{
+    background-color: #FFD449;
+}
+#buttonAaien{
+    background-color: #EF959C;
+}
+
+#restedBarContainer, #hungerBarContainer, #playedBarContainer, #loveBarContainer {
+    width: 20em;
+    background-color: #e0e0e0;
+    border-radius: 2.5em;
+    overflow: hidden;
+}
+
+#restedBar, #hungerBar, #playBar, #loveBar {
+    width: 0%;
+    height: 30px;
+}
+
+#restedBar {
+    background-color: #648DE5;
+}
+
+#hungerBar {
+    background-color: #33CA7F;
+}
+
+#playBar {
+    background-color: #FFD449;
+}
+
+#loveBar {
+    background-color: #EF959C;
+}
+
